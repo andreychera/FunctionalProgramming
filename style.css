@@ -1,0 +1,141 @@
+nav a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 1000px;   
+    max-height: 1500px;
+    width: auto;        
+    height: auto;       
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+nav a {
+    display: block;
+    margin: 5px 0;
+    padding: 8px 12px;
+    background-color: #eee;
+    border-radius: 4px;
+    color: #000;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+img {
+    max-width: 100%;
+    max-height: 800px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Контейнеры и блоки */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Списки */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    img {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    img {
+        max-height: 300px;
+    }
+}
